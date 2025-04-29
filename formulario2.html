@@ -1,0 +1,104 @@
+<html>
+<head>
+  <title> Formularios en HTML </title>
+</head>
+
+
+<body style="background-color:orange;">
+
+
+<h1> Matricula al Campeonato Musical</h1>
+
+<figure>
+<img src="campeonato.jpg" alt="Ejemplo de imagen" width="200" height="200">
+
+</figure>
+
+  <form action="procesar.php" method="POST">
+    <!--Etiqueda de campo-->
+    <label for="nombre">Nombre Del Participante:</label>
+    <!--Campo de entrada-->
+    <input type="text" id="nombre"name="nombre" required>
+    <br><br>
+
+
+    <!--Area de texto-->
+
+     <form action="procesar.php" method="POST">
+    <!--Etiqueda de campo-->
+    <label for="nombre">Edad:</label>
+    <!--Campo de entrada-->
+    <input type="text" id="nombre"name="Edad" required>
+    <br><br>
+
+ <form action="procesar.php" method="POST">
+    <!--Etiqueda de campo-->
+    <label for="nombre">Instrumento que utilizara:</label>
+    <!--Campo de entrada-->
+    <input type="text" id="nombre"name="nombre" required>
+    <br><br>
+
+<label for="mensaje">Direccion:</label>
+    <textarea id="Direccion" name="Direccion" rows="4"
+cols="30"></textarea>
+    <br><br>
+
+
+
+
+    <!--Menu desplegable-->
+    <label for="opciones">SEXO:</label>
+    <select id="opciones" name="SEXO">
+      <option value="opción1"> Femenino</option>
+      <option value="opción2"> Masculino</option>
+      <option value="opción3"> No decir</option>
+</select>
+<br><br>
+       
+
+
+  <!--menú despeglegable-->
+     <label for="opciones">Categoria:</label>
+    <select id="opciones" name="opciones">
+      <option value="opción1"> Solista Vocal</option>
+      <option value="opción2"> Duo o Duo Vocal</option>
+      <option value="opción3"> Grupo o banda</option>
+      <option value="opción3"> Instrumental solista</option>
+      <option value="opción3"> DJ o productor musical</option>
+</select>
+<br><br>
+
+
+<label for="opciones">Provincia :</label>
+    <select id="opciones" name="opciones">
+      <option value="opción1"> San jose</option>
+      <option value="opción2"> Alajuela</option>
+      <option value="opción3"> Cartago</option>
+      <option value="opción3"> Heredia</option>
+      <option value="opción3"> Guanacaste</option>
+      <option value="opción3"> Puntarenas</option>
+      <option value="opción3"> Limon</option>
+</select>
+<br><br>
+
+<!--Boton-->
+      <button type="submit">Completo</button>
+    </form>
+
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
